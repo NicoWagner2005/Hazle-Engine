@@ -108,7 +108,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>HZ_PLATFORM_WINDOWS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)Hazle\src;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Hazel\src;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -132,6 +132,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Hazel\Hazel.vcxproj">
+      <Project>{18292898-02f5-4e0b-8e5b-a2f1d8ff05c5}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\Hazle\Hazle.vcxproj">
       <Project>{18292898-02f5-4e0b-8e5b-a2f1d8ff05c5}</Project>
     </ProjectReference>
